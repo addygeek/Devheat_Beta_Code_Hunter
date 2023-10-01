@@ -39,7 +39,6 @@ function NavBar() {
             </div>
 
         
-
         <div className="Navbar__Rem">
             <div className="Navbar__avatar">
                 <img width="39" height="44" src={ppimg} alt=''/>
