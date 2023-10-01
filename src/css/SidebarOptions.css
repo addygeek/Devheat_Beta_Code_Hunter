@@ -3,14 +3,62 @@
     flex-direction: column;
   }
   .sidebarOption {
-    background: #98C1D9;
+    padding-right: 30px;
+    background: #000000;
     display: flex;
     align-items: center;
-    padding: 10px;
+    padding-left: 10px;
     cursor: pointer;
-  
+    color: #FFF;
+
   }
   
+  #firstop{
+    margin-left: 10px;
+    width:250px;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background: #1C274C;
+    border-radius: 25px;
+
+  }
+  #secop{
+    
+    margin-left: 10px;
+    height: 50px;
+    margin-bottom: 10px;
+    background:  #F17935;
+    border-radius: 25px;
+  
+  }
+  #thiop{
+    margin-bottom: 10px;
+    margin-left: 10px;
+    height: 50px;
+    background: #F4D329;
+    border-radius: 25px;
+  
+  }
+  #fouop{
+    margin-bottom: 10px;
+    margin-left: 10px;
+    height: 50px;
+
+    background:  rgba(30, 30, 30, 0.90);
+    border-radius: 25px;
+  
+  }
+
+  #lastop{
+    
+    margin-left: 10px;
+    height: 50px;
+    margin-bottom: 20px;
+    border-top: 0.2px solid rgba(30, 30, 30, 0.90);
+    border-radius: 25px;
+  
+  }
   .sidebarOption:hover {
     border: 100px;
     border-color: azure;
@@ -27,15 +75,20 @@
     margin-left: 20px;
   }
   .sidebarOption > p {
+    vertical-align: middle;
     margin-left: 10px;
-    color: white;
+  color: #FFF;
+font-family: Inter;
+font-style: normal;
+line-height: normal;
     font-weight: 400;
-    font-size: 13px;
+    font-size: 24px;
   }
   
 .sidebarOption > .text {
+  padding-bottom: 1%;
     margin-left: 23px;
     color: white;
     font-weight: 400;
-    font-size: 13px;
+    font-size: 24px;
   }

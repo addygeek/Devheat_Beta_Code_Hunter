@@ -1,4 +1,11 @@
 .sidebar {
+  border: 0.2px solid black;
+  background: #98C1D9;
+  border-radius: 25px;
+  padding-right: 20px;
+    width: 3500px;
     margin-right: 10px;
     flex: 0.2;
+    align-items: left;
+    align-self: left;
   }

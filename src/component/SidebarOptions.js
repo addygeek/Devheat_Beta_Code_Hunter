@@ -1,37 +1,42 @@
 import React from 'react'
 import '../css/SidebarOptions.css';
+import artimg from '../images/Art.png'
+import astrimg from '../images/Astronomy.png'
+import polimg from '../images/Politics.png'
+import tecimg from '../images/Technology.png'
 function SidebarOptions() {
   return (
     <div className='sidebarOptions'>
-        <div className="sidebarOption">
+        <div className="sidebarOption" id="firstop">
             <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3Ihw4jLMQ3TCvXhCSD1naaXW-2BGYfOwOJiVGbUQ&s"
+            src={tecimg}
             alt=""
             />
             <p>Technology</p>
+
         </div>
-        <div className="sidebarOption">
+        <div className="sidebarOption" id="secop">
             <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3Ihw4jLMQ3TCvXhCSD1naaXW-2BGYfOwOJiVGbUQ&s"
+            src={artimg}
             alt=""
             />
-            <p>Technology</p>
+            <p>Art</p>
         </div>
-        <div className="sidebarOption">
+        <div className="sidebarOption" id="thiop">
             <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3Ihw4jLMQ3TCvXhCSD1naaXW-2BGYfOwOJiVGbUQ&s"
+            src={polimg}
             alt=""
             />
-            <p>Technology</p>
+            <p>Politics</p>
         </div>
-        <div className="sidebarOption">
+        <div className="sidebarOption" id="fouop">
             <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3Ihw4jLMQ3TCvXhCSD1naaXW-2BGYfOwOJiVGbUQ&s"
+            src={astrimg}
             alt=""
             />
-            <p>Technology</p>
+            <p>Astronomy</p>
         </div>
-        <div className="sidebarOption">
+        <div className="sidebarOption" id="lastop">
         <div className="add">
             <img src="/add.png" alt="" />
         </div>
