@@ -21,7 +21,7 @@
 }
 .qnsbox__askus {
   display: flex;
-  margin-top: 10px;
+  margin-top: 12px;
 }
 .qnsbox__askus > p {
   color: gray;
