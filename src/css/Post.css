@@ -1,4 +1,4 @@
-.Question {
+.Post {
     display: flex;
     flex-direction: column;
     padding: 10px;
@@ -9,30 +9,30 @@
     box-shadow: 0px 5px 8px -9px solid rgab(0, 0, 0, 0.5);
   }
   
-  .Question__info {
+  .Post__info {
     display: flex;
     align-items: center;
   }
   
-  .Question__info > h4 {
+  .Post__info > h4 {
     margin-left: 10px;
     cursor: pointer;
     font-size: 13px;
   }
-  .Question__info > h4:hover {
+  .Post__info > h4:hover {
     text-decoration: underline;
   }
   
-  .Question__info > small {
+  .Post__info > small {
     margin-left: 10px;
   }
   
-  .Question__body {
+  .Post__body {
     display: flex;
     flex-direction: column;
   }
   
-  .Question__body > .Question__question {
+  .Post__body > .Post__Post {
     margin-top: 10px;
     font-weight: bold;
     margin-bottom: 10px;
@@ -42,7 +42,7 @@
     flex: 1;
   }
   
-  .Question__question > .Question__btnAnswer {
+  .Post__Post > .Post__btnAnswer {
     margin-left: auto;
     cursor: pointer;
     padding: 7px;
@@ -55,24 +55,24 @@
     border-radius: 33px;
   }
   
-  .Question__btnAnswer:hover {
+  .Post__btnAnswer:hover {
     color: #EE6C4D;
     background: lightgray;
   }
   
-  .Question__question > p:hover {
+  .Post__Post > p:hover {
     text-decoration: underline;
   }
   
-  .Question__body > .Question__answer > p {
+  .Post__body > .Post__answer > p {
     margin-bottom: 10px;
   }
   
-  /* .Question__image {
+  /* .Post__image {
     background: rgb(0, 140, 255);
   } */
   
-  .Question__body > img {
+  .Post__body > img {
     width: 100%;
     object-fit: contain;
     background-color: #98C1D9;
@@ -81,19 +81,19 @@
     margin-top: 10px;
   }
   
-  .Question__footer {
+  .Post__footer {
     display: flex;
     align-items: center;
     margin-top: 5px;
   }
   
-  .Question__footer > .MuiSvgIcon-root {
+  .Post__footer > .MuiSvgIcon-root {
     color: gray;
     margin-right: 40px;
     cursor: pointer;
   }
   
-  .Question__footerAction {
+  .Post__footerAction {
     background-color: lightgray;
     padding: 5px;
     align-items: center;
@@ -101,45 +101,45 @@
     justify-content: space-around;
     border-radius: 33px;
   }
-  .Question__footerAction > .MuiSvgIcon-root {
+  .Post__footerAction > .MuiSvgIcon-root {
     color: gray;
     margin-right: 40px;
     cursor: pointer;
   }
   
-  .Question__footerAction > .MuiSvgIcon-root:hover {
+  .Post__footerAction > .MuiSvgIcon-root:hover {
     color: rgb(0, 140, 255);
     margin-right: 40px;
   }
   
-  .Question__footerLeft {
+  .Post__footerLeft {
     margin-left: auto;
   }
   
-  .Question__footerLeft > .MuiSvgIcon-root {
+  .Post__footerLeft > .MuiSvgIcon-root {
     color: gray;
     cursor: pointer;
     margin-left: 30px;
   }
   
-  .modal__question {
+  .modal__Post {
     display: flex;
     align-items: center;
     flex-direction: column;
   }
   
-  .modal__question > h1 {
+  .modal__Post > h1 {
     color: #8f1f1b;
     font-weight: 600;
     margin-bottom: 10px;
   }
   
-  .modal__question > p {
+  .modal__Post > p {
     color: gray;
     font-size: small;
   }
   
-  .modal__question > p > .name {
+  .modal__Post > p > .name {
     color: black;
     font-weight: bold;
   }

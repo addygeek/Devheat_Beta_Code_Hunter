@@ -34,7 +34,7 @@ function NavBar() {
             <img width="44" height="44" src={pagimg} alt=''/>   
             </div>
             <div className="Navbar__icon">
-            <img width="44" height="44" src={notimg} alt=''/>   
+            <img width="38" height="44" src={notimg} alt=''/>   
             </div>
             </div>
 
@@ -42,7 +42,7 @@ function NavBar() {
 
         <div className="Navbar__Rem">
             <div className="Navbar__avatar">
-                <img width="34.83" height="44" src={ppimg} alt=''/>
+                <img width="39" height="44" src={ppimg} alt=''/>
             </div>
             </div>
             {/* <img src="/language.png" alt=''/>
