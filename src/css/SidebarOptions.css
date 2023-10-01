@@ -22,7 +22,7 @@
     margin-left: 20px;
   }
   
-  .sidebarOption > .MuiSvgIcon-root {
+  .sidebarOption .add {
     font-size: medium;
     margin-left: 20px;
   }
@@ -33,7 +33,7 @@
     font-size: 13px;
   }
   
-  .sidebarOption > .text {
+.sidebarOption > .text {
     margin-left: 23px;
     color: white;
     font-weight: 400;

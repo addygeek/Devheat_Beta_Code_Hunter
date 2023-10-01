@@ -32,7 +32,9 @@ function SidebarOptions() {
             <p>Technology</p>
         </div>
         <div className="sidebarOption">
-        {/* <Add /> */}
+        <div className="add">
+            <img src="/add.png" alt="" />
+        </div>
         <p className="text">Discover Spaces</p>
       </div>
     </div>
