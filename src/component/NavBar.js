@@ -4,11 +4,13 @@ import langimg from '../images/Languages.png'
 import comimg from '../images/Community.png'
 import notimg from '../images/Notifications.png'
 import pagimg from '../images/Page.png'
+import ppimg from '../images/pp.png'
+
 function NavBar() {
   return (
-    <div className="Navbar">
-        <div className="Navbar__logo">
-    <img src="https://png.pngtree.com/png-vector/20221222/ourmid/pngtree-ask-me-speech-bubble-png-image_6533094.png" height={20} alt=''/>
+    <div className="Navbar" id="first">
+        <div className="Navbar__logo" id="Askme">
+    <img width="233px" height="44" src="https://png.pngtree.com/png-vector/20221222/ourmid/pngtree-ask-me-speech-bubble-png-image_6533094.png"  alt=''/>
         </div>
         <div className="Navbar__icons">
             <div className="Navbar__icon">
@@ -21,6 +23,7 @@ function NavBar() {
         </div>
         
         <div className="Navbar">
+        <div className="Navbar__icons">
             <div className="Navbar__icon">
             <img width="42.31" height="44" src={homeimg} alt=''/>
             </div>
@@ -30,15 +33,20 @@ function NavBar() {
             <div className="Navbar__icon">
             <img width="44" height="44" src={pagimg} alt=''/>   
             </div>
+            <div className="Navbar__icon">
+            <img width="44" height="44" src={notimg} alt=''/>   
+            </div>
+            </div>
+
         
 
         <div className="Navbar__Rem">
             <div className="Navbar__avatar">
-                <img width="34.83" height="44" src={notimg} alt=''/>
+                <img width="34.83" height="44" src={ppimg} alt=''/>
             </div>
             </div>
-            <img src="/language.png" alt=''/>
-            <button className="Button">Add Question</button>
+            {/* <img src="/language.png" alt=''/>
+            <button className="Button">Add Question</button> */}
         </div>
    
    

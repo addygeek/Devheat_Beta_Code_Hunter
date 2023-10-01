@@ -1,10 +1,15 @@
 
-mport "../css/HomeFeed.css";
+import "../css/HomeFeed.css";
 
 
-function HomeFeed() {
-
+export function HomeFeedpage() {
+  return(
+     <div className="HomeFeedpage">
+         <Qnsbox/>
+         <Post/>
+ 
+ 
+     </div>
   );
-}
-
-export default HomeFeed;
+ }
+ export default HomeFeedpage
