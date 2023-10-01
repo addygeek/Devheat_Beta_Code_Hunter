@@ -1,0 +1,189 @@
+.Navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1px;
+  background-color: #3D5A80;
+  width: 100%;
+
+  position: sticky;
+  z-index: 1000;
+  top: 0;
+  box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, 0.5);
+}
+
+.Navbar__logo > img {
+  height: 30px;
+  margin-right: 20px;
+}
+
+.Navbar__icons {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.Navbar__icons > .active > .MuiSvgIcon-root {
+  fill: #EE6C4D;
+}
+
+.Navbar__icon > .MuiSvgIcon-root {
+  font-size: xx-large;
+  background-color: #3D5A80;
+  padding: 5px 20px;
+  color: rgba(0, 0, 0, 0.2);
+}
+
+.Navbar__icon > .MuiSvgIcon-root:hover {
+  background-color: rgb(0,0,0);
+  border-radius: 10px;
+  color: black;
+}
+
+.Navbar__input {
+  display: flex;
+  align-items: center;
+  border: 1px solid rgba(ff,ff,ff,0.88);
+  padding: 5px;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+
+.Navbar__input > input {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  color: rgb(0,0,0,0.2);
+}
+
+.Navbar__input > .MuiSvgIcon-root {
+  color: rgba(0,0,0,0.9);
+}
+
+.Navbar__avatar {
+  cursor: pointer;
+}
+.Navbar__Rem {
+  display: flex;
+  align-items: center;
+  margin-left: 25px;
+}
+
+.Navbar__Rem > .MuiSvgIcon-root {
+  font-size: xx-large;
+  color: black;
+  margin-left: 25px;
+  cursor: pointer;
+}
+.Navbar__Rem > .MuiSvgIcon-root:hover {
+  color: #b92b27;
+}
+
+.Navbar__Rem > .MuiButton-root {
+  color: #3D5A80;
+  background: #3D5A80;
+  text-transform: inherit;
+  border-radius: 20px;
+  margin-left: 25px;
+}
+
+.Navbar__Rem > .MuiButton-root:hover {
+  color: #3D5A80;
+  background: #3D5A80;
+}
+
+.modal__title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  border-bottom: 1px solid rgba(0,0,0, 0.2);
+}
+
+.modal__title > h5 {
+  color: gray;
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: 500;
+  margin-right: 30px;
+}
+
+.modal__title > h5:hover {
+  color: #3D5A80;
+}
+
+.modal__info {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.modal__info > p {
+  margin-left: 10px;
+  font-size: small;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.modal__info > .modal__scope {
+  display: flex;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.5);
+  padding: 5px;
+  margin-left: 10px;
+  background-color: #3D5A80;
+  border-radius: 33px;
+  cursor: pointer;
+}
+
+.modal__Field {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  flex: 1;
+}
+
+.modal__Field > .modal__fieldLink {
+  color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+}
+
+.modal__Field > .modal__fieldLink > input {
+  flex: 1;
+  border: none;
+  outline: none;
+  margin-left: 5px;
+}
+
+.modal__buttons {
+  display: flex;
+  align-items: center;
+  margin-top: 260px;
+  margin-right: -20px;
+  border-top: 1px solid #3D5A80;
+}
+
+.modal__buttons > .cancle {
+  margin-left: auto;
+  border: none;
+  margin-top: 5px;
+  outline: none;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 500;
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 33px;
+  cursor: pointer;
+}
+.modal__buttons > .add {
+  border: none;
+  outline: none;
+  margin-top: 5px;
+  background-color: #EE6C4D;
+  color: #E0FBFC;
+  font-weight: 700;
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 33px;
+  cursor: pointer;
+}
