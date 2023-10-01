@@ -1,6 +1,6 @@
 .Navbar {
   display: flex;
-  justify-content: center;
+
   align-items: center;
   padding: 1px;
   background-color: #3D5A80;
@@ -20,6 +20,7 @@
 }
 
 .Navbar__icons {
+    
   display: flex;
   align-items: center;
   cursor: pointer;
@@ -30,8 +31,8 @@
 }
 
 .Navbar__icon{
+
   font-size: xx-large;
-  background-color: #076cf2;
   padding: 5px 20px;
   color: rgba(0, 0, 0, 0.2);
  
@@ -44,6 +45,9 @@
 }
 
 .Navbar__input {
+    margin-left: 20%;
+    margin-right: 20%;
+  background-color: rgba(255, 255, 255, 0.88);
   display: flex;
   align-items: center;
   border: 2px solid black;
@@ -53,17 +57,16 @@
 }
 
 .Navbar__input > input {
-  background-color: transparent;
+  background-color: rgba(255, 255, 255, 0.88);
   outline: none;
   border: none;
-  color: rgb(255, 255, 255);
+  color: rgba(0,0,0,0.88);
 }
-
-/* .Navbar__input {
+ .Navbar__input {
   color: rgba(255, 5, 5, 0.9);
   border-radius: 10px;
   border:2px solid black;
-} */
+}
 
 .Navbar__Rem>.Navbar__avatar {
   cursor: pointer;
