@@ -9,9 +9,11 @@
   position: sticky;
   z-index: 1000;
   top: 0;
-  box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, 1);
 }
-
+/* .Navbar__icon{
+    
+} */
 .Navbar__logo > img {
   height: 30px;
   margin-right: 20px;
@@ -23,18 +25,19 @@
   cursor: pointer;
 }
 
-.Navbar__icons > .active > .MuiSvgIcon-root {
-  fill: #EE6C4D;
+.Navbar__icons > .active{
+  fill: #ff3603;
 }
 
-.Navbar__icon > .MuiSvgIcon-root {
+.Navbar__icon{
   font-size: xx-large;
-  background-color: #3D5A80;
+  background-color: #076cf2;
   padding: 5px 20px;
   color: rgba(0, 0, 0, 0.2);
+ 
 }
 
-.Navbar__icon > .MuiSvgIcon-root:hover {
+.Navbar__icon:hover {
   background-color: rgb(0,0,0);
   border-radius: 10px;
   color: black;
@@ -43,9 +46,9 @@
 .Navbar__input {
   display: flex;
   align-items: center;
-  border: 1px solid rgba(ff,ff,ff,0.88);
+  border: 2px solid black;
   padding: 5px;
-  border-radius: 5px;
+  border-radius: 15px;
   margin-left: 5px;
 }
 
@@ -53,43 +56,50 @@
   background-color: transparent;
   outline: none;
   border: none;
-  color: rgb(0,0,0,0.2);
+  color: rgb(255, 255, 255);
 }
 
-.Navbar__input > .MuiSvgIcon-root {
-  color: rgba(0,0,0,0.9);
-}
+/* .Navbar__input {
+  color: rgba(255, 5, 5, 0.9);
+  border-radius: 10px;
+  border:2px solid black;
+} */
 
-.Navbar__avatar {
+.Navbar__Rem>.Navbar__avatar {
   cursor: pointer;
 }
+.Navbar__avatar {
+    cursor: pointer;
+  }
 .Navbar__Rem {
   display: flex;
   align-items: center;
   margin-left: 25px;
 }
 
-.Navbar__Rem > .MuiSvgIcon-root {
+.Navbar__Rem>img{
   font-size: xx-large;
   color: black;
-  margin-left: 25px;
+  margin-left: 25px; 
   cursor: pointer;
 }
-.Navbar__Rem > .MuiSvgIcon-root:hover {
+.Navbar__Rem>img:hover{
   color: #b92b27;
 }
 
-.Navbar__Rem > .MuiButton-root {
-  color: #3D5A80;
-  background: #3D5A80;
+.Navbar__Rem>button {
+  color: #f7f7f7;
+  background: #ff0303;
   text-transform: inherit;
-  border-radius: 20px;
+  padding: 10px;
+  border-radius: 10px;
   margin-left: 25px;
+  font-size: 16px;
 }
 
-.Navbar__Rem > .MuiButton-root:hover {
-  color: #3D5A80;
-  background: #3D5A80;
+.Navbar__Rem>button:hover {
+  color: #ff0000;
+  background: #ffffff;
 }
 
 .modal__title {
