@@ -14,7 +14,7 @@ function NavBar() {
         </div>
         <div className="Navbar__icons">
             <div className="Navbar__icon">
-           <img width="44" height="44" src={langimg} alt=''/>
+           <img width="36" height="36" src={langimg} alt=''/>
             </div>
             </div>
             <div className="Navbar__input">
@@ -25,23 +25,23 @@ function NavBar() {
         <div className="Navbar">
         <div className="Navbar__icons">
             <div className="Navbar__icon">
-            <img width="42.31" height="44" src={homeimg} alt=''/>
+            <img width="34.61" height="36" src={homeimg} alt=''/>
             </div>
             <div className="Navbar__icon">
-            <img width="44" height="44" src={comimg} alt=''/>
+            <img width="36" height="36" src={comimg} alt=''/>
             </div>
             <div className="Navbar__icon">
-            <img width="44" height="44" src={pagimg} alt=''/>   
+            <img width="31.09" height="36" src={pagimg} alt=''/>   
             </div>
             <div className="Navbar__icon">
-            <img width="38" height="44" src={notimg} alt=''/>   
+            <img width="31.09" height="36" src={notimg} alt=''/>   
             </div>
             </div>
 
         
         <div className="Navbar__Rem">
             <div className="Navbar__avatar">
-                <img width="39" height="44" src={ppimg} alt=''/>
+                <img width="31.9" height="36" src={ppimg} alt=''/>
             </div>
             </div>
             {/* <img src="/language.png" alt=''/>
