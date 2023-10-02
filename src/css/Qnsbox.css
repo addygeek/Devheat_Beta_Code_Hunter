@@ -1,30 +1,51 @@
 .qnsbox {
+  flex: 0.2;
+    align-items: left;
+    align-self: left;
+  border: 1px solid black;
+  position:fixed;
+  right: 0px;
   display: flex;
   flex-direction: column;
-  padding: 10px;
-  border: 1px solid lightgray;
-  background-color: white;
-  border-radius: 5px;
   cursor: pointer;
+  background: #98C1D9;
+  border-radius: 25px;
+  padding-left: 10px;
+    width: 350px;
+    margin-right: 10px;
 }
 .qnsbox:hover {
   border: 1px solid rgb(175, 175, 175);
 }
 .qnsbox_info {
+  flex: 0.2;
+  vertical-align: text-top;
+
   display: flex;
+    padding-left: 10px;
+  cursor: pointer;
+  color: #FFF;
   align-items: center;
+ 
 }
 .qnsbox_info > h5 {
-  color: rgb(129, 129, 129);
+  vertical-align: middle;
+  color: rgb(0,0,0);
   font-weight: 300;
   margin-left: 10px;
 }
 .qnsbox__askus {
+  align-self: center;
+  align-items: center;
   display: flex;
-  margin-top: 12px;
+ 
 }
 .qnsbox__askus > p {
-  color: gray;
-  font-weight: bold;
-  font-size: large;
+  align-items: center;
+  text-align: center;
+  color: black;
+
+  font-size: 24px;
+   font-family: Inter;
+    font-weight: 400;
 }

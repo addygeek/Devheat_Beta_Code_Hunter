@@ -1,3 +1,7 @@
+import upimg from '../images/upvote.png'
+import doimg from '../images/Downvote.png'
+import coimg from '../images/Comment.png'
+import liimg from '../images/Delete.png'
 import React from 'react'
 import '../css/Post.css'
 function Post() {
@@ -21,14 +25,16 @@ function Post() {
 
            <div className="post_footer">
               <div className="post_footer_action">
-              <img src="/arrowupicon.png"/>
+              <img src={upimg}/>
 
-              <img src="/arrowdownicon.png"/>
+              <img src={doimg}/>
+
+              <img src={coimg}/>
+ 
+              <img src={liimg} id='delete'/>
 
               </div>
-              <img src="/share.png"/>
-              <img src="/horizotal line fore more option.png"/>
-           
+          
            </div>
     </div>
   )
