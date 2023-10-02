@@ -8,7 +8,7 @@ function Qnsbox() {
   return (
     <div className="qnsbox">
         <div className="qnsbox_info">
-            {/* <Avatar/> */}
+            {/* <Avatarr/> */}
             <img src={user.photo}/>
             <h5>{user.displayName ? user.displayName : user.email}</h5>
         </div>
