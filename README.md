@@ -12,6 +12,7 @@
 - [Frontend](#frontend)
 - [Color Reference](#color-reference)
 - [Backend](#backend)
+- [Screenshort](#Screenshort)
 - [API Reference](#api-reference)
 - [Future Aspirations for this App](#future-aspirations-for-this-app)
 - [Contributing](#contributinng)
@@ -99,7 +100,7 @@ We used have used the following technologies for backend-
 - Firebase
 - Node JS Server
 
-## Photos
+## Screenshort
 ![image](https://github.com/addygeek/Devheat_Beta_Code_Hunter/assets/118501211/1d1bf9df-9517-445c-bfd5-180071564724)
 SignUp and Login Page
 
