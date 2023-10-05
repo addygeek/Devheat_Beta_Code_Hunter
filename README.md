@@ -13,7 +13,6 @@
 - [Color Reference](#color-reference)
 - [Backend](#backend)
 - [Screenshort](#Screenshort)
-- [API Reference](#api-reference)
 - [Future Aspirations for this App](#future-aspirations-for-this-app)
 - [Contributing](#contributinng)
 - [Acknowledgements](#acknowledgements)
