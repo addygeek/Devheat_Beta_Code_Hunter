@@ -1,0 +1,15 @@
+.top{
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.box{
+    border: 2px solid black;
+    height: 160px;
+    font-size: 30px;
+    border-radius: 10px;
+}
+.BODY{
+    background-color: aqua;
+}

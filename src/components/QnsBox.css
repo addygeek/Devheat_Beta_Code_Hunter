@@ -1,0 +1,36 @@
+.QnsBox {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background-color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: rgb(240, 240, 240);
+  border: 0.5px solid rgb(175, 175, 175);
+}
+
+.QnsBox:hover {
+  border: 1px solid rgb(175, 175, 175);
+}
+
+.QnsBox__info {
+  display: flex;
+  align-items: center;
+}
+
+.QnsBox__info > h5 {
+  color: rgb(129, 129, 129);
+  font-weight: 300;
+  margin-left: 10px;
+}
+
+.QnsBox__qns {
+  display: flex;
+  margin-top: 8px;
+}
+
+.QnsBox__qns > p {
+  color: gray;
+  font-weight: bold;
+  font-size: large;
+}

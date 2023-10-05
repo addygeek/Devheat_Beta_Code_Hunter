@@ -1,0 +1,17 @@
+.post_content {
+    margin-top: 50px;
+    margin-bottom: 100%;
+    padding-bottom: 100%;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+.expanded_post
+{
+    height: 100%;
+    width: 100%;
+}
+body{
+    height: 100%;
+}

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/websitelog.ico">
+    <title>About Askus</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+          
+            background: #2a2b3d;
+        }
+        header {
+            background-color:#1e1d2b;
+            color: #0c0c0c;
+            text-align: center;
+            padding: 1rem;
+            width: 100%;
+        }
+        .container {
+            max-width: 100%;
+            margin: 0 auto;
+            padding: 2rem;
+            color: #f9f9f9;
+        }
+        .flip-card {
+            
+            width: 400px;
+            height: 500px;
+            perspective: 1000px;
+            margin: 10px;
+        }
+        
+        .flip-card-inner {
+            width: 100%;
+            height: 100%;
+            transform-style: preserve-3d;
+            transition: transform 0.5s;
+        }
+        
+        .flip-card:hover .flip-card-inner {
+            transform: rotateY(180deg);
+        }
+        
+        .flip-card-front,
+        .flip-card-back {
+            width: 110%;
+            height: 110%;
+            position: absolute;
+            backface-visibility: hidden;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+        }
+
+        
+        
+        .flip-card-front {
+            background-color: #8158D8;
+            
+        }
+        
+        .flip-card-back {
+            background-color:#8158D8;
+            color: black;
+            transform: rotateY(180deg);
+        }
+        
+        h2 {
+            margin: 10px;
+            font-size: 40px;
+            color:#8158D8;
+        }
+        
+        p {
+            margin: 5px;
+        }
+        
+        img {
+            max-width: 450px;
+            max-height: 450px;
+            object-fit: cover;
+        }      /* styles.css */
+        h3,h4{
+            color:#8158D8;
+        }
+
+      
+    </style>
+</head>
+<body>
+    <header>
+        <img src="Group 44.png" style="width: 200px;">
+    </header>
+    <div class="container">
+        <h2 style="text-align: center;font: size 50px;">Welcome to Askus</h2>
+        <h3> Where Questions Find Answers:</h3>
+        <p>At Askus, we believe that knowledge should be freely shared and easily accessible. We've created this platform to provide a space where you can seek answers to your questions or lend a helping hand to those in need. Whether you're here to ask, answer, or both, you're an essential part of our community.</p>
+
+        <h3>Our Mission</h3>
+        <p>Our mission at Askus is simple yet powerful: to connect curious minds and problem solvers from around the world. We strive to create a vibrant and supportive environment where knowledge flows freely, enabling everyone to learn, grow, and find solutions to their questions.</p>
+
+        <h3>How It Works:</h3>
+        <ul>
+        <li style="color:#8158D8;"><h4>Asking Questions:</h4></li>
+        <ul>
+            <li>Ask Anything: Got a burning question? Ask it! Our community is here to help you find answers to anything, from academic queries to everyday conundrums.</li>
+            <li>Tag Your Queries: Categorize your questions to make it easier for experts to find and answer them. Tags like #Science, #Technology, #Health, and more help us organize our vast knowledge base.</li>
+            <li>Engage and Learn: Engage in discussions, learn from others' experiences, and watch your knowledge expand.</li>
+        </ul>
+
+    <li style="color:#8158D8;"><h4>Answering Questions:</h4></li>
+        <ul>
+            <li>Share Your Expertise: If you're knowledgeable in a particular field, lend your expertise by answering questions. Your insights can make a significant impact.</li>
+            <li>Collaborate and Learn: Collaborate with fellow problem solvers, share your insights, and learn from diverse perspectives.</li>
+        </ul>
+    </ul>
+
+        <h3>Our Community:</h3>
+        <p>Askus is a diverse community of inquisitive minds and generous individuals who love to learn and share. Our users come from all walks of life, bringing a wide range of knowledge and expertise to the table.</p>
+
+        <h3>Contact Us:</h3>
+        <p>Have feedback, suggestions, or questions about Askus? We'd love to hear from you. You can reach us via email at <a href="mailto:contact@askus.com" style="color: #8158d8;">contact@askus.com</a> or through our <a href="https://tailwind-elements.com/api/snippets/embed/5205709/fullscreen" style="#8158d8">Contact Form</a>.</p>
+
+        <h3>Join Askus Today:</h3>
+        <p>Join Askus today, and let's embark on a journey of knowledge-sharing and problem-solving together. Whether you're here to ask or answer, you're an essential part of our community. Welcome to Askus!</p>
+    </div>
+    <div class="flipcards" style="display: flex;justify-content: space-around;">
+    <div class="flip-card">
+        <div class="flip-card-inner">
+            <div class="flip-card-front">
+                <img src="aman.png" alt="Front Image">
+                <h2 style="color: #0c0c0c;">Aman</h2>
+                <p>code hunters</p>
+            </div>
+            <div class="flip-card-back">
+                <h2 style="color: #0c0c0c;">Aman</h2>
+                <p>Position: Web Developer</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="flip-card">
+        <div class="flip-card-inner">
+            <div class="flip-card-front">
+                <img src="addiy.png" alt="Front Image">
+                <h2 style="color: #0c0c0c;">Aditya</h2>
+                <p>code hunters</p>
+            </div>
+            <div class="flip-card-back">
+                
+                <h2 style="color: #0c0c0c;">Aditya</h2>
+                <p>Position:Web Developer</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="flip-card">
+        <div class="flip-card-inner">
+            <div class="flip-card-front">
+                <img src="devansh.png" alt="Front Image">
+                <h2 style="color: #0c0c0c;">Devansh</h2>
+                <p>code hunters</p>
+            </div>
+            <div class="flip-card-back">
+                <h2 style="color: #0c0c0c;">Devansh</h2>
+                <p>Position:Web Developer</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
