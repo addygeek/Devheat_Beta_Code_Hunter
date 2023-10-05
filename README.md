@@ -53,9 +53,9 @@ Join Ask Us today and become a part of a vibrant community where curiosity knows
 
 ### Installation
 
-Run the following terminal command to initiate react development server
+Run the following terminal command to initiate react development server to run our AskUs Web Application
 
-npm install
+ npm install
 
 npm install firebase
 
@@ -168,4 +168,7 @@ If you have any questions, suggestions, or concerns, feel free to reach out to u
 ## Documentation
 
 [Documentation](https://linktodocumentation)
-
+We haved worked on many technology to create thsi Project where user can Register and Start Asking Their questions and get answers from expert and by others members as well.
+We have used mostly React and its template React-redux in conjucntion to develop the Application using help of many componenets.
+React played a critial role in develoeping such a high scale application using Firebase in Backend technology supported on Node Js.
+Our aim is to build a community driver application where users can help each other using our website and help to grow together.
