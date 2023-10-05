@@ -1,5 +1,5 @@
+![WhatsApp Image 2023-10-06 at 04 36 10_810f9a61](https://github.com/addygeek/Devheat_Beta_Code_Hunter/assets/118501211/06de4c6c-51c7-4304-8caa-5e2d2e2037af)
 
-![Ask Us](https://i.imgur.com/Z6NQiSk.png[/img])
 ## No more Doubts
 
 
