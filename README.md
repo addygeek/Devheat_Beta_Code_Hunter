@@ -98,6 +98,16 @@ We used have used the following technologies for backend-
 
 - Firebase
 - Node JS Server
+
+## Photos
+![image](https://github.com/addygeek/Devheat_Beta_Code_Hunter/assets/118501211/1d1bf9df-9517-445c-bfd5-180071564724)
+![image](https://github.com/addygeek/Devheat_Beta_Code_Hunter/assets/118501211/dda48adc-e4b4-4ff5-8608-08f4f925c443)
+![image](https://github.com/addygeek/Devheat_Beta_Code_Hunter/assets/118501211/92a61d4c-2b8e-4219-8230-f987ebdf5129)
+![image](https://github.com/addygeek/Devheat_Beta_Code_Hunter/assets/118501211/168f41ff-6ea2-41d6-bc00-7dd95008b610)
+![image](https://github.com/addygeek/Devheat_Beta_Code_Hunter/assets/118501211/f53ee4d2-65e6-406f-b247-965992785d51)
+![image](https://github.com/addygeek/Devheat_Beta_Code_Hunter/assets/118501211/00b19285-de26-4c0e-8a67-21b3099893ad)
+![image](https://github.com/addygeek/Devheat_Beta_Code_Hunter/assets/118501211/d8b84869-6971-4369-9e6c-8e70ea9dbeaf)
+
 ## Future Aspirations
 
 Expanding Furthur, we can make this project domain specific and choose a domain for the around which, the site will be working. 
