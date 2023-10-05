@@ -1,68 +1,150 @@
-CODEBASE FOR SORIN.
 
-## Available Scripts
+![Ask Us](https://i.imgur.com/Z6NQiSk.png[/img])
+## No more Doubts
 
-In the project directory, you can run:
 
-### `npm start`
+# 🧭 Table of contents
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- [Ask Us](#title-and-description)
+- [🧭 Table of contents](#-table-of-contents)
+- [Introduction](#introduction)
+- [Getting Started](#getting-started)
+- [Frontend](#frontend)
+- [Color Reference](#color-reference)
+- [Backend](#backend)
+- [API Reference](#api-reference)
+- [Future Aspirations for this App](#future-aspirations-for-this-app)
+- [Contributing](#contributinng)
+- [Acknowledgements](#acknowledgements)
+- [Authors](#authors)
+- [Feedback](#feedback)
+- [Contact Us](#contact-us)
+- [Documentation](#documentation)
+## Introduction
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Ask Us is a vibrant online community where inquisitive minds from around the world gather to share knowledge, expertise, and diverse perspectives. Whether you're a seasoned expert, an enthusiastic learner, or someone with burning questions, Ask Us is the place to be.
 
-### `npm test`
+What Sets KnowledgeHub Apart?
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Diverse Expertise: Explore a wide array of topics, from technology and science to arts, culture, and beyond. Our community boasts experts from various fields, ensuring you get accurate and insightful answers.
 
-### `npm run build`
+Community-Driven: KnowledgeHub thrives on community participation. Ask questions, provide answers, and engage in meaningful discussions. Everyone's perspective is valued here.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Quality Content: Our robust moderation ensures high-quality content. Say goodbye to spam and irrelevant responses. You can trust the information you find on KnowledgeHub.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+Personalized Experience: Tailor your feed to your interests. Filter topics that matter to you, and receive personalized recommendations based on your preferences.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Global Reach: Connect with people from different cultures and backgrounds. Gain a global perspective on various topics, enriching your understanding of the world.
 
-### `npm run eject`
+Answer Ranking: With our smart upvote and downvote feature, we rank the best answers to show on top.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+How It Works:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Ask Questions: Have a burning question? Ask the community, and watch as experts and enthusiasts provide detailed, helpful answers.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Share Knowledge: Contribute your expertise by answering questions and sharing insights. Your knowledge could positively impact someone's life.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Engage in Discussions: Participate in lively discussions, share your opinions, and gain new perspectives. Ask Us is not just about answers; it's about fostering understanding.
 
-## Learn More
+Learn and Grow: Immerse yourself in a world of knowledge. Learn from experts, find solutions to your problems, and expand your horizons.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Join Ask Us today and become a part of a vibrant community where curiosity knows no bounds. Together, let's explore the depths of knowledge and uncover the answers to life's most intriguing questions.
+## Getting Started
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Installation
 
-### Code Splitting
+Run the following terminal command to initiate react development server
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+npm install
 
-### Analyzing the Bundle Size
+npm install firebase
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+npm start
 
-### Making a Progressive Web App
+### Usage
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+1. **Sign Up/Login:** Create an account or log in to your existing account on Ask Us. YOu can also register using google authentication.
+2. **Explore Topics:** Browse through topics or use the search bar to find questions related to your interests. You can also filter questions related to your interest, using the sidebar.
+3. **Ask Questions:** Click on the "Ask" button to post your question to the community.
+4. **Provide Answers:** Contribute by answering questions and engaging in discussions.
+5. **Upvote/Downvote:** Upvote the answers you like, downvote the ones that you think are not right. Comment down your views. 
 
-### Advanced Configuration
+## Front-end
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+We have used
 
-### Deployment
+- HTML
+- CSS
+- Javascript
+- React
+- Material UI
+- Bootstrap and Tailwind
+- React Redux
+- React Router Dom
+## Color Reference
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+| Color             | Hex                                                                |
+| ----------------- | ------------------------------------------------------------------ |
+| Dark Gunmetal | ![#2A2D1B](https://via.placeholder.com/10/2A2D1B?text=+) #2A2D1B |
+| Gunmetal | ![#2B2C3E](https://via.placeholder.com/10/2b2c3e?text=+) #2b2c3e |
+| Slate Blue | ![#8158D8](https://via.placeholder.com/10/8158d8?text=+) #8158D8 |
+| Hot Magenta | ![#FF11E0](https://via.placeholder.com/10/ff11e0?text=+) #FF11E0 |
 
-### `npm run build` fails to minify
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+## Back-end
+
+We used have used the following technologies for backend-
+
+- Firebase
+- Node JS Server
+## Future Aspirations
+
+Expanding Furthur, we can make this project domain specific and choose a domain for the around which, the site will be working. 
+
+In future prospect, we can add the following features to this project-
+
+1. Question Editing - Made a mistake, writing your question? or got a better phrasing for your question. You can edit and update your posted question.
+
+2. Answer Editing - Not just the questions, but answers will also be editable, in case yiou make a mistake.
+
+3. Premium Subscription- We can run ads on the web site to run adsense and then introduce a premium subscription plan to remove ads. The plan may also involve one to one doubt solving by our experts, who will get their share in par with the number of queries they address and the amount of profit that we get through them.
+
+4. Join Communities- Users will be able to join communities with like minded people to discuss their topics of interest.
+
+5. Subscribe Broadcasters- Users will be able to subscribe registered broadcasters of their choce, who will broadcast content to the audience's demand.
+
+6. Community conferencing- Communities will get a video conferencing feature to viedo-chat in realtime.
+## Contributing
+
+Contributions are always welcome!
+
+We welcome contributions from the community. If you find a bug, have a feature request, or want to contribute in any other way, please contact us. 
+askus@gmail.com
+## Acknowledgements
+
+ - [Tailwind](https://tailwindcss.com/)
+ - [Login Background Animation](https://wweb.dev/resources/animated-css-background-generator)
+
+
+
+
+## Authors
+
+- [@Shad0-w](https://www.github.com/Shad0-w)
+- [@Amank-07](https://www.github.com/Amank-07)
+- [@Addygeek](https://www.github.com/Addygeek)
+
+
+## Feedback
+
+If you have any feedback, please reach out to us at askus@gmail.com
+
+
+## Contact Us
+
+If you have any questions, suggestions, or concerns, feel free to reach out to us at [support@askus.com](mailto:support@askus.com) or through our [Contact Form](https://www.askus.com/contact).
+## Documentation
+
+[Documentation](https://linktodocumentation)
+
