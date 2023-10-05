@@ -1,4 +1,4 @@
-![WhatsApp Image 2023-10-06 at 04 36 10_810f9a61](https://github.com/addygeek/Devheat_Beta_Code_Hunter/assets/118501211/06de4c6c-51c7-4304-8caa-5e2d2e2037af)
+![askuslogohome](https://github.com/addygeek/Devheat_Beta_Code_Hunter/assets/118501211/6930a32c-525f-4dac-bef7-cfdb024ba541)
 
 ## No more Doubts
 
@@ -102,10 +102,10 @@ We used have used the following technologies for backend-
 
 ## Screenshort
 ![image](https://github.com/addygeek/Devheat_Beta_Code_Hunter/assets/118501211/1d1bf9df-9517-445c-bfd5-180071564724)
-SignUp and Login Page
+                                            SignUp and Login Page
 
 ![image](https://github.com/addygeek/Devheat_Beta_Code_Hunter/assets/118501211/dda48adc-e4b4-4ff5-8608-08f4f925c443)
-Home Page of Ask Us 
+                                              Home Page of Ask Us 
 
 ![image](https://github.com/addygeek/Devheat_Beta_Code_Hunter/assets/118501211/92a61d4c-2b8e-4219-8230-f987ebdf5129)
 Question Post Window
