@@ -174,7 +174,7 @@ If you have any questions, suggestions, or concerns, feel free to reach out to u
 ## Documentation
 
 [Documentation](https://linktodocumentation)
-We haved worked on many technology to create thsi Project where user can Register and Start Asking Their questions and get answers from expert and by others members as well.
+We haved worked on many technology to create this Project where user can Register and Start Asking Their questions and get answers from expert and by others members as well.
 We have used mostly React and its template React-redux in conjucntion to develop the Application using help of many componenets.
 React played a critial role in develoeping such a high scale application using Firebase in Backend technology supported on Node Js.
 Our aim is to build a community driver application where users can help each other using our website and help to grow together.
