@@ -20,6 +20,7 @@
 - [Feedback](#feedback)
 - [Contact Us](#contact-us)
 - [Documentation](#documentation)
+- [Video] (#Video)
 ## Introduction
 
 Ask Us is a vibrant online community where inquisitive minds from around the world gather to share knowledge, expertise, and diverse perspectives. Whether you're a seasoned expert, an enthusiastic learner, or someone with burning questions, Ask Us is the place to be.
@@ -55,7 +56,7 @@ Join Ask Us today and become a part of a vibrant community where curiosity knows
 
 Run the following terminal command to initiate react development server to run our AskUs Web Application
 
- npm install
+npm install
 
 npm install firebase
 
@@ -119,6 +120,11 @@ Filtering Technology Tag
 
 ![image](https://github.com/addygeek/Devheat_Beta_Code_Hunter/assets/118501211/d8b84869-6971-4369-9e6c-8e70ea9dbeaf)
 About Us Page
+
+##Video
+https://youtu.be/5fnrg_mYkIk
+
+
 ## Future Aspirations
 
 Expanding Furthur, we can make this project domain specific and choose a domain for the around which, the site will be working. 
@@ -172,3 +178,4 @@ We haved worked on many technology to create thsi Project where user can Registe
 We have used mostly React and its template React-redux in conjucntion to develop the Application using help of many componenets.
 React played a critial role in develoeping such a high scale application using Firebase in Backend technology supported on Node Js.
 Our aim is to build a community driver application where users can help each other using our website and help to grow together.
+
